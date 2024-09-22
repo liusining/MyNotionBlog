@@ -79,11 +79,11 @@ const Hero = props => {
         <div
           onClick={scrollToWrapper}
           className='z-10 cursor-pointer w-full text-center py-4 text-3xl absolute bottom-10 text-white'>
-          <div className='opacity-70 animate-bounce text-xs'>
+          <div className='opacity-70 text-xs'>
             {siteConfig('HEXO_SHOW_START_READING', null, CONFIG) &&
               locale.COMMON.START_READING}
           </div>
-          <i className='opacity-70 animate-bounce fas fa-angle-down' />
+          <i className='opacity-70 fas fa-angle-down' />
         </div>
       </div>
 
