@@ -1,10 +1,8 @@
 const CONFIG = {
-  HEXO_HOME_BANNER_ENABLE: true,
+  HEXO_HOME_BANNER_ENABLE: false,
   // 3.14.1以后的版本中，欢迎语在blog.config.js中配置，用英文逗号','隔开多个。
   HEXO_HOME_BANNER_GREETINGS: [
-    'Hi，我是一个程序员',
-    'Hi，我是一个打工人',
-    'Hi，我是一个干饭人',
+    '这里分享天文、编程、古典吉他内容，和一些无聊的事',
     '欢迎来到我的博客🎉'
   ], // 首页大图标语文字
 
@@ -12,7 +10,7 @@ const CONFIG = {
   // 已知未修复bug, 在移动端开启true后会加载不出图片； 暂时建议设置为false。
   HEXO_HOME_NAV_BACKGROUND_IMG_FIXED: false, // 首页背景图滚动时是否固定，true 则滚动时图片不懂动； false则随鼠标滚动 ;
   // 是否显示开始阅读按钮
-  HEXO_SHOW_START_READING: true,
+  HEXO_SHOW_START_READING: false,
 
   // 菜单配置
   HEXO_MENU_INDEX: true, // 显示首页
