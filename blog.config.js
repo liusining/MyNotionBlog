@@ -23,7 +23,7 @@ const BLOG = {
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: '刘思宁', // 您的昵称 例如 tangly1024
-  BIO: '能说的、不能说的，都在这了', // 作者简介
+  BIO: '版本号 v0.0.0', // 作者简介
   LINK: 'https://sining.io', // 网站地址
   KEYWORDS: '刘思宁,马督工,睡前消息,产经破壁机,高剑犁', // 网站关键词 英文逗号隔开
 
